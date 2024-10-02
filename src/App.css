@@ -1,0 +1,152 @@
+/* Basic container for the board */
+.board-container {
+  padding: 20px;
+}
+
+/* Header Section */
+.board-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.display-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.display-button img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+.display-button:hover {
+  background-color: #45a049;
+}
+
+/* Popup overlay */
+.popup-overlay {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 250px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  z-index: 999;
+}
+
+/* Popup content */
+.popup-content h3 {
+  margin-bottom: 10px;
+}
+
+.grouping,
+.ordering {
+  margin-bottom: 15px;
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Columns styling */
+.columns-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+
+/* Each column styling */
+.column {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  min-height: 300px;
+}
+
+.column h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Styling for individual ticket cards */
+.ticket-card {
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-id {
+  font-weight: bold;
+}
+
+.ticket-priority {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for the Feature Request tag */
+.ticket-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.ticket-tag {
+  display: flex;
+  align-items: center;
+}
+
+.ticket-tag img {
+  margin-right: 5px;
+}
+
+.ticket-user img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+/* Styling for "+" and "..." signs next to the name */
+.ticket-actions {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.plus-sign {
+  font-size: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.dots {
+  font-size: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.display-menu {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .display-button {
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .grouping, .ordering {
+    display: inline-block;
+  }
+  
+  .grouping select, .ordering select {
+    margin-left: 10px;
+    padding: 5px;
+  }
+  
+  .ticket-board {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .ticket-group {
+    margin-top: 20px;
+  }
+  
+  .tickets {
+    margin-top: 10px;
+  }
+  
+  .ticket-card {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
